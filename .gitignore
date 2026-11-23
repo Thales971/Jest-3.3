@@ -1,0 +1,32 @@
+# Dependências
+node_modules/
+
+# Gerenciador de pacotes
+package-lock.json
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ambiente
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testes / cobertura
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
